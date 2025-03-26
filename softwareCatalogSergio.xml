@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+Nombre: Sergio
+Curso: DAW1
+Fecha: 26/03/2025
+Ejercicio1
+  -->
+<catalogo xmlns:os="http://ejemplo.com/os" xmlns:office="http://ejemplo.com/office">
+  <!-- Software de sistemas operativos -->
+  <os:software>
+    <nombre>Windows 10</nombre>
+    <version>21H2</version>
+    <desarrollador>Microsoft</desarrollador>
+  </os:software>
+  <os:software>
+    <nombre>Ubuntu</nombre>
+    <version>22.04 LTS</version>
+    <desarrollador>Canonical</desarrollador>
+  </os:software>
+  <os:software>
+    <nombre>macOS Monterey</nombre>
+    <version>12.0</version>
+    <desarrollador>Apple</desarrollador>
+  </os:software>
+  
+  <!-- Software de aplicaciones de oficina -->
+  <office:software>
+    <nombre>Microsoft Office</nombre>
+    <version>2019</version>
+    <desarrollador>Microsoft</desarrollador>
+  </office:software>
+  <office:software>
+    <nombre>LibreOffice</nombre>
+    <version>7.1</version>
+    <desarrollador>The Document Foundation</desarrollador>
+  </office:software>
+  <office:software>
+    <nombre>Google Workspace</nombre>
+    <version>2021</version>
+    <desarrollador>Google</desarrollador>
+  </office:software>
+</catalogo>

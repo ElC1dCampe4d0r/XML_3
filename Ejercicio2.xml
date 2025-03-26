@@ -1,0 +1,30 @@
+<!--  
+Nombre: Sergio
+Curso: DAW1
+Fecha: 26/03/2025
+Ejercicio2
+  -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:br="http://example.com/bookreview">
+  <head>
+    <title>Book Review</title>
+  </head>
+  <body>
+    <br:bookreview>
+      <br:title>Introducción a XML</br:title>
+      <table>
+        <tr align="center">
+          <th>Author</th>
+          <th>Price</th>
+          <th>Pages</th>
+          <th>Date</th>
+        </tr>
+        <tr align="left">
+          <td><br:author>Simon St. Laurent</br:author></td>
+          <td><br:price>31.98</br:price></td>
+          <td><br:pages>352</br:pages></td>
+          <td><br:date>1998/01</br:date></td>
+        </tr>
+      </table>
+    </br:bookreview>
+  </body>
+</html>
